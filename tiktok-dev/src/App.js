@@ -9,15 +9,7 @@ import FadeIn from "react-fade-in";
 import CountUp from "react-countup";
 
 /*
-firebase.initializeApp({
-  apiKey: "AIzaSyB6xSbUL_3DYxd5mK9PBPdxMI9h7MHmoAg",
-  authDomain: "tiktokappanalysis.firebaseapp.com",
-  projectId: "tiktokappanalysis",
-  storageBucket: "tiktokappanalysis.appspot.com",
-  messagingSenderId: "263996531504",
-  appId: "1:263996531504:web:0a28bce64849673beb1ef5",
-  measurementId: "G-4WNB0KH4E7",
-});
+insert firebase.initialize({}) here
 */
 
 // Declares the functional component
