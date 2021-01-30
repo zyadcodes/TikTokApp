@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: beige;
+}
+
+.verticalSpacer {
+  height: 1.5vh;
+}
+
+.titleText {
+  margin-top: 3vh;
+  align-self: center;
+  font-size: 4vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vh;
+  align-items: center;
+  margin-left: 35%;
+}
+
+.horizontalSpacer {
+  width: 2vw;
+}
+
+.textInputContainer {
+  width: 20vw;
+  font-size: 4vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: aliceblue;
+  height: 7vh;
+}
+
+.searchButton {
+  outline: none;
+  border-width: 0;
+  height: 7.5vh;
+  width: 15vw;
+  font-size: 1.5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: gray;
+  background-color: #90ee90;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.searchButton:hover {
+  transform: scale(1.35);
+}
+
+.normalText {
+  font-size: 2.5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.smallText {
+  font-size: 1.5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.userInfoContainer {
+  margin-top: 5vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.userBasicInfoRow {
+  text-align: center;
+  margin-bottom: 5vh;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userImage {
+  border-radius: 50%;
+  width: 7.5vw;
+  height: auto;
+}
