@@ -5,4 +5,4 @@ Tech stack used:
 - Node.JS
 - React.JS
 - HTML/CSS (Some tailwind)
-- TikTok API
+- TikTok unofficial API
